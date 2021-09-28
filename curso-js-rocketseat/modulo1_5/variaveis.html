@@ -1,0 +1,31 @@
+<script>
+    // variáveis e tipos de dados
+    // var - variável de escopo global
+    // let - variável de escopo local
+    //const - variável constante imutável
+    var nome = "Roger" //atribuição
+
+    { //abertura de escopo local
+        let idade = 24 
+    }
+
+    console.log(nome)
+    //console.log(idade) não irá funcionar
+    console.log(typeof nome)
+    //typeof - ver o tipo da variável
+
+    let altura, isHuman
+    //atribuição conjunta
+    altura = 1.85
+    isHuman = true
+
+    console.log(nome, altura, isHuman)
+
+    console.log('Meu nome é ' +  nome + ' e tenho ' + altura + ' de altura')
+
+    //Forma mais prática:
+    //Crases - template lietrals/strings
+
+    console.log(`Meu nome é ${nome} e tenho ${altura} de altura`)
+
+</script>
