@@ -1,0 +1,48 @@
+<!-- TABLE COMPLEXA -->
+
+<table>
+     <caption style="background-color: green;">Produtos produzidos/vendidos por loja </caption>
+
+     <colgroup>
+        <col style="background-color: purple;">
+        <col span="2" style="background-color: red;">
+        <col span="2" style="background-color: blue;">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2"></th> <!--pular linha-->
+            <th colspan="2" scope="colgroup">Loja 1</th>
+            <th colspan="2" scope="colgroup">Loja 2</th> <!--pular coluna-->
+            <!--scope: agrupamento de coluna-->
+        </tr>
+
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <!--scope: cabeçalho de coluna-->
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Produto 1</th>
+            <!--cabeçalho de linha-->
+            <td>200</td>
+            <td>150</td>
+            <td>300</td>
+            <td>180</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Produto 2</th>
+            <td>150</td>
+            <td>120</td>
+            <td>240</td>
+            <td>200</td>
+        </tr>
+    </tbody>
+
+</table>
